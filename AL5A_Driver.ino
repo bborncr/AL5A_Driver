@@ -9,7 +9,7 @@ String commandString = "";
 boolean stringComplete = false;
 
 void setup(){
-  Serial.begin(9600);
+  Serial.begin(57600);
   Serial.println("Ready...");
 
   inputString.reserve(10);
